@@ -1,29 +1,44 @@
 .headshot{
-    padding: 150px 0 100px 0;
+    height: 200px;
     background-size: cover;
     background-image: url("../imgs/tempHeadshot.jpg");
 }
 .aboutMe{
+    padding-top: 25px;
     text-align: center;
-    padding-top: 45px;
 }
 .header{
     background-color: lightblue;
     display: block;
+    padding: 30px 0 0 0;
 }
 .nav{
     text-align: center;
     padding: 20px;
 }
-.nav a{
-    padding: 15px;
+.nav .button{
+    padding-top: 1px;
+}
+.button:hover {
+    background-color: rgba(255, 202, 171, 0.3);
 }
 h2{
     text-align: center;
+    font-family: "Palatino Linotype", sans-serif;
+}
+.info{
+    background-color: #ffc9ac;
+    padding-top: 15px;
+}
+.info .text{
+    font-family: "Bookman Old Style", sans-serif;
 }
 .footer{
     text-align: center;
+    padding-top: 20px;
+    background-color: #19ff66;
 }
+
 
 
 
