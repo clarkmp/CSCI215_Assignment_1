@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Music Survey</title>
+<link rel="stylesheet" href="music.css">
+<meta charset="utf-8">
+</head>
+<body>
+
+<h1> Music Survey </h1>
+
+<form method="post">
+<p>
+First Name <input type="textbox" name="first" id="first">
+Last Name <input type="textbox" name="last" id="last">
+</p>
+
+<p>
+E-Mail Address: <input type="email" name="email" id="email" size="60">
+</p>
+
+<p>
+<fieldset>
+<legend>What genres do you listen to?: </legend>
+<br>
+<label><input type="checkbox" name="rock" id="rock">Rock </label><br>
+<label><input type="checkbox" name="pop" id="pop">Pop </label> <br>
+<label><input type="checkbox" name="classic" id="classic">Classical </label> <br>
+<label><input type="checkbox" name="rap" id="rap">Rap  </label><br>
+<label><input type="checkbox" name="other" id="other">Other </label>
+</fieldset>
+</p>
+
+<p>
+<fieldset>
+<legend>How often do you listen to music?:</legend>
+<br>
+<label><input type="radio" name="freq" id="Never"> Never  </label><br>
+<label><input type="radio" name="freq" id="once"> At least once a day </label> <br>
+<label><input type="radio" name="freq" id="always"> All the time </label> <br>
+</fieldset>
+</p>
+
+<p> 
+Where do you listen to music?: <br>
+
+<select size="3" name="locationmenu" id="locationmenu">
+	<option>At home</option>
+	<option>In the car</option>
+	<option>Walking/Running</option>
+	<option>Anywhere</option>
+</select>	
+</p>
+
+<p>
+Comments: <br>
+<textarea name="comments" id="comments" cols="60" rows="3"> Write your comments here </textarea>
+</p>
+
+
+<p>
+<input type="submit" name="submit" id="submit" value="Sumbit!">
+<input type="reset" name="reset" id="reset" value="Reset">
+</p>
+</form>
+
+<footer> Michael Clark <br> <a href="mailto:clarkmp@g.cofc.edu"> clarkmp@g.cofc.edu</a></footer>
+
+</body>
+</html>

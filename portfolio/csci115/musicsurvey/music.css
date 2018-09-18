@@ -1,0 +1,25 @@
+form {
+	background-color: lightblue;
+	padding: 20px;
+}
+
+input, select, textarea {
+	background-color: white;
+}
+
+#submit{
+	background-color: green;
+	color: white;
+}
+
+#reset{
+	background-color: red;
+	color: white;
+}
+
+body {
+	color: blue;
+	text-align: center;
+	background-color: salmon;
+}
+
